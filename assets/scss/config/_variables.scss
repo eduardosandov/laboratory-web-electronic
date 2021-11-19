@@ -3,7 +3,9 @@
 /* @import url("https://fonts.googleapis.com/css?family=Roboto:300"); */
 
 :root{
-  --header-height: 3rem;
+  --header-height: 3.5rem;
+  
+  --hue: 152;
 /* =========COLOR============ */
     --azul-uno: #001B48;
     --azul-dos: #002447;
@@ -30,11 +32,20 @@
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
 
-  /*MARGENES*/
-  --mb-0-5: .5rem;
-  --mb-0-75: .75rem;
-  --mb-1: 1rem;
-  --mb-1-5: 1.5rem;
-  --mb-2: 2rem;
-  --mb-2-5: 2.5rem;
+    /*========== Font weight ==========*/
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    /*========== Margenes Bottom ==========*/
+    /*.5rem = 8px | 1rem = 16px ...*/
+    --mb-0-5: .5rem;
+    --mb-0-75: .75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+
+    /*========== z index ==========*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
 }
