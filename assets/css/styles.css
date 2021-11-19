@@ -1,0 +1,108 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Roboto:300"); */
+:root {
+  --header-height: 3rem;
+  /* =========COLOR============ */
+  --azul-uno: #001B48;
+  --azul-dos: #002447;
+  --azul-tres: #155DB1;
+  --azul-cuatro: #2196F3;
+  --azul-cinco: #81C9FA;
+  --rojo-uno: #CC0001;
+  --rojo-dos: #E60000;
+  --rojo-tres: #FF1A1A;
+  --rojo-cuatro: #FF3334;
+  --rojo-cinco: #FF4D4D;
+  --grey-one: rgb(29, 29, 29);
+  --grey-two: #222;
+  --grey-three: #808080;
+  --grey-four: #B3B3B3;
+  --grey-five: #E6E6E6;
+  --grey-six: #fcfcfc;
+  --white: white;
+  --wrapper-background: #fff111;
+  --black: #111111;
+  --botton-color: #333222;
+  --target-color: #ebf6ff;
+  /*========== Font and typography ==========*/
+  --body-font: "Poppins", sans-serif;
+  /*MARGENES*/
+  --mb-0-5: .5rem;
+  --mb-0-75: .75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 14px;
+}
+
+body {
+  margin: 3.5rem 0 0 0;
+  background: #180c0c;
+  color: chartreuse;
+  transition: 0.4s;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+h1, h2, h3 {
+  color: var(--azul-uno);
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header {
+  width: 100%;
+  background: burlywood;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: 0.4s;
+}
+
+/*==============NAV==============*/
+section {
+  padding: 5.5rem 0 1rem;
+}
+
+.container {
+  max-width: 968px;
+  margin-left: var(--mb-1-5);
+  margin-right: var(--mb-1-5);
+}
+
+/*# sourceMappingURL=styles.css.map */
