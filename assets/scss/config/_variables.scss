@@ -1,36 +1,46 @@
-/*===== GOOGLE FONTS =====*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
-/* @import url("https://fonts.googleapis.com/css?family=Roboto:300"); */
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
+/*=============== VARIABLES CSS ===============*/
 :root{
-  --header-height: 3.5rem;
-  
-  --hue: 152;
-/* =========COLOR============ */
-    --azul-uno: #001B48;
-    --azul-dos: #002447;
-    --azul-tres: #155DB1;
-    --azul-cuatro: #2196F3;
-    --azul-cinco: #81C9FA;
-    --rojo-uno: #CC0001;
-    --rojo-dos: #E60000; 
-    --rojo-tres: #FF1A1A;
-    --rojo-cuatro: #FF3334;
-    --rojo-cinco: #FF4D4D;
-    --grey-one: rgb(29, 29, 29);
-    --grey-two: #222;
-    --grey-three: #808080;
-    --grey-four: #B3B3B3;
-    --grey-five: #E6E6E6;
-    --grey-six: #fcfcfc;
-    --white: white;
-    --wrapper-background: #fff111;
-    --black: #111111;
-    --botton-color: #333222;
-    --target-color: #ebf6ff;
-    
-  /*========== Font and typography ==========*/
-  --body-font: 'Poppins', sans-serif;
+    --header-height: 3.5rem; // 56px
+
+    /*========== Colors ==========*/
+    /*Color mode HSL(hue, saturation, lightness)*/
+    --hue: 152;
+
+    --first-color: hsl(var(--hue), 24%, 32%);
+    --first-color-alt: hsl(var(--hue), 24%, 28%);
+    --first-color-light: hsl(var(--hue), 24%, 66%);
+    --first-color-lighten: hsl(var(--hue), 24%, 92%);
+    --title-color: hsl(var(--hue), 4%, 15%);
+    --text-color: hsl(var(--hue), 4%, 35%);
+    --text-color-light: hsl(var(--hue), 4%, 55%);
+    --body-color: hsl(var(--hue), 0%, 100%);
+    --container-color: #FFF;
+
+    /*========== Font and typography ==========*/
+    /*.5rem = 8px | 1rem = 16px ...*/
+    --body-font: 'Poppins', sans-serif;
+
+    --big-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+
+    // Responsive typography
+    @media screen and (min-width: 968px){
+        --big-font-size: 3.5rem;
+        --h1-font-size: 2.25rem;
+        --h2-font-size: 1.5rem;
+        --h3-font-size: 1.25rem;
+        --normal-font-size: 1rem;
+        --small-font-size: .875rem;
+        --smaller-font-size: .813rem;
+    }
 
     /*========== Font weight ==========*/
     --font-medium: 500;
