@@ -11,13 +11,13 @@ body,
 button,
 input,
 textarea {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 14px;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
 }
 body {
     margin: var(--header-height) 0 0 0;
-    background: rgb(24, 12, 12) ;
-    color: chartreuse;
+    background-color: var(--body-color);
+    color: var(--text-color);
     transition: .4s;
 }
 
@@ -28,15 +28,15 @@ button {
 }
 
 h1,h2,h3 {
-    color: var(--azul-uno);
-    font-weight: bold;
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
 }
 
 ul {
     list-style: none;
 }
 a{
-    list-style: none;
+    text-decoration:  none;
 }
 img{
     max-width: 100%;
