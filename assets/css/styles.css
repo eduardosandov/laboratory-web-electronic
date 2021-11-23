@@ -93,6 +93,24 @@ img {
   height: auto;
 }
 
+section {
+  padding: 5.5rem 0 1rem;
+}
+
+.container {
+  max-width: 968px;
+  margin-left: var(--mb-1-5);
+  margin-right: var(--mb-1-5);
+}
+
+.grid {
+  display: grid;
+}
+
+.main {
+  overflow: hidden;
+}
+
 .header {
   width: 100%;
   background: burlywood;
@@ -110,23 +128,17 @@ img {
   justify-content: space-between;
   align-items: center;
 }
-
-section {
-  padding: 5.5rem 0 1rem;
+.nav__logo, .nav__toggle, .nav__close {
+  color: yellow;
 }
-
-.container {
-  max-width: 968px;
-  margin-left: var(--mb-1-5);
-  margin-right: var(--mb-1-5);
-}
-
-.grid {
-  display: grid;
-}
-
-.main {
-  overflow: hidden;
+.nav__logo {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: -1px;
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  transition: 0.3s;
 }
 
 /*# sourceMappingURL=styles.css.map */
