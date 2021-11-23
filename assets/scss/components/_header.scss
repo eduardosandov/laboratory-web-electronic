@@ -1,6 +1,6 @@
 .header {
     width: 100%;
-    background: burlywood;
+    background: var(--body-color);
     position: fixed;
     top: 0;
     left: 0;
@@ -19,7 +19,7 @@
     &__logo,
     &__toggle,
     &__close{
-        color:yellow;
+        color: var(--title-color);
     }
     &__logo{
         text-transform: uppercase;
@@ -31,11 +31,11 @@
         transition: .3s;
 
         &:hover {
-            color: white;
+            color: var(--first-color);
         }
         &-icon{
             font-size: 1.15rem;
-            color: white;
+            color: var(--first-color);
         }
     }
     &__toggle{
@@ -70,10 +70,10 @@
         row-gap: 1.5rem;
     }
     &__link{
-        color: yellow;
+        color: var(--title-color);
         font-weight: var(--font-medium);
         &:hover{
-            color: var(--azul-cuatro);
+            color: var(--first-color);
         }
     }
 }
@@ -88,7 +88,7 @@
 
 .active-link{
     position: relative;
-    color: var(--azul-cuatro);
+    color: var(--first-color);
 
     &::after{
         content: '';
@@ -97,6 +97,6 @@
         left: 0;
         width: 50%;
         height: 2px;    
-        background-color: var(--azul-cuatro);
+        background-color: var(--first-color);
     }
 }
